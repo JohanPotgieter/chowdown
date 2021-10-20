@@ -1,18 +1,17 @@
 # Site settings
 title: Chowdown
-email: your-email@domain.com
+email: xxxxx@xxx.com
 description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+twitter_username: xxx
+github_username:  JohanPotgieter
 
 # Build settings
 markdown: kramdown
 
-permalink: /:title:output_ext
+permalink: :title:output_ext
 
 collections:
   components:
