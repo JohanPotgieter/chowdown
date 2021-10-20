@@ -1,3 +1,25 @@
+# Additions
+
+Created a front end for Chowdown. This front end can add new recipes and post. The functionality is all included in additem.php. This file must be placed in your webserver root (or any subfolder).
+The front end also adds additional fields to the recipe.
+- yield (the amount of food the recipe will make)
+- cookTime (the amount of time if will take to bake / cook the items
+- prepTime (amount of time needed to prepare ingrients before cooking can start)
+- nutritional information
+  - servingSize (the amount of food relating to the nutritioal information)
+  - calories (cal or kcal amount)
+  - cholesterolContent (Cholesterol in mg)
+  - fatContent (Fat in grams)
+  - sodiumContent (Sodium in mg)
+  - carbohydrateContent (Carbohydrate n grams)
+  - sugarContent (Sugar in grams)
+  - fiberContent (Fiber in grams)
+  - proteinContent (Protein in grams)
+  - saturatedFatContent (Saturated Fat in grams)
+  - unsaturatedFatContent (Un Saturated Fat in grams)
+
+The nutritional information can be adjusted in the _data/nutrients.yml file. The nutritioal information was added by another fork.
+
 # Chowdown
 
 A simple, plaintext recipe database for hackers
