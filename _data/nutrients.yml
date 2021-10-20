@@ -8,7 +8,7 @@ calories:
   name: calories
   type: Energy
   description: The number of calories.
-  unit: kcal
+  unit: Cal
 carbohydrateContent:
   name: carbs
   type: Mass
@@ -18,7 +18,7 @@ cholesterolContent:
   name: cholesterol
   type: Mass
   description: The number of milligrams of cholesterol.
-  unit: g
+  unit: mg
 fatContent:
   name: fat
   type: Mass
